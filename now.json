@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "name": "typescript-starter",
+  "env": {
+    "IS_NOW": "true"
+  },
+  "builds": [
+    {
+      "src": "src/index.ts",
+      "use": "@now/node@canary",
+      "config": {
+        "maxLambdaSize": "50mb"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/src/index.ts"
+    }
+  ]
+}
