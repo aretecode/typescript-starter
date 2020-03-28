@@ -19,7 +19,6 @@
   "prettier.arrowParens": "avoid",
   "prettier.bracketSpacing": false,
   "prettier.eslintIntegration": true,
-  "prettier.tslintIntegration": true,
   "prettier.parser": "typescript",
   "prettier.ignorePath": ".prettierignore",
   "prettier.printWidth": 100,
